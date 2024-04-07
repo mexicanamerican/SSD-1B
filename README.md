@@ -15,9 +15,9 @@ Try out the model at [Segmind SSD-1B](https://www.segmind.com/models/ssd-1b?utm_
 
 The Segmind Stable Diffusion Model (SSD-1B) is a **distilled 50% smaller** version of the Stable Diffusion XL (SDXL), offering a **60% speedup** while maintaining high-quality text-to-image generation capabilities. It has been trained on diverse datasets, including Grit and Midjourney scrape data, to enhance its ability to create a wide range of visual content based on textual prompts.
 
-This model employs a knowledge distillation strategy, where it leverages the teachings of several expert models in succession, including SDXL, ZavyChromaXL, and JuggernautXL, to combine their strengths and produce impressive visual outputs.
+This model employs a knowledge distillation strategy, where it leverages the teachings of several expert models in succession, including SDXL, ZavyChromaXL, and JuggernautXL, to combine their strengths and produce impressive visual outputs. Refer to [our paper](https://arxiv.org/abs/2401.02677) to know all the details.
 
-Special thanks to the HF team 🤗 especially [Sayak](https://huggingface.co/sayakpaul), [Patrick](https://github.com/patrickvonplaten) and [Poli](https://huggingface.co/multimodalart) for their collaboration and guidance on this work.
+Special thanks to the HF team 🤗 especially [Sayak](https://huggingface.co/sayakpaul), [Patrick](https://github.com/patrickvonplaten) and [Poli](https://huggingface.co/multimodalart) for their collaboration and guidance on this work.  
 
 ## Image Comparision (SDXL-1.0 vs SSD-1B)
 
@@ -221,3 +221,16 @@ The SSD-1B Model is not suitable for creating factual or accurate representation
 
 Limitations & Bias
 The SSD-1B Model has some challenges in embodying absolute photorealism, especially in human depictions. While it grapples with incorporating clear text and maintaining the fidelity of complex compositions due to its autoencoding approach, these hurdles pave the way for future enhancements. Importantly, the model's exposure to a diverse dataset, though not a panacea for ingrained societal and digital biases, represents a foundational step towards more equitable technology. Users are encouraged to interact with this pioneering tool with an understanding of its current limitations, fostering an environment of conscious engagement and anticipation for its continued evolution.
+
+## Citation
+
+```bibtex
+@misc{gupta2024progressive,
+      title={Progressive Knowledge Distillation Of Stable Diffusion XL Using Layer Level Loss}, 
+      author={Yatharth Gupta and Vishnu V. Jaddipal and Harish Prabhala and Sayak Paul and Patrick Von Platen},
+      year={2024},
+      eprint={2401.02677},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
