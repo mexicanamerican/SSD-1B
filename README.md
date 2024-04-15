@@ -3,7 +3,7 @@
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/62039c2d91d53938a643317d/WveKcu7q5PyZEwNezyyMC.png)
 
-## 🔥🔥Join our [Discord](https://discord.gg/rF44ueRG) to give feedback on our smaller v2 version and early access🔥🔥
+## 🔥🔥Join our [Discord](https://discord.gg/byHsq5RXEt) to give feedback on our smaller v2 version and early access🔥🔥
 
 ## 📣 AUTOMATIC1111 compatibility added. Supporting file [here](https://huggingface.co/segmind/SSD-1B/blob/main/SSD-1B-A1111.safetensors)
 
